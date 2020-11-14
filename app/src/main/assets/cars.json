@@ -1,0 +1,134 @@
+{
+  "cars": [
+    {
+      "maker": "Porsche",
+      "model": "Taycan 4S",
+      "year": 2020,
+      "img": "porsche_taycan_4s_2020",
+      "engine": {
+        "code": "N03",
+        "type": "Electric",
+        "power": 563,
+        "torque": 650,
+        "layout": "Electric"
+      }
+    },
+    {
+      "maker": "Porsche",
+      "model": "Macan S",
+      "year": 2019,
+      "img": "porsche_macan_s_2019",
+      "engine": {
+        "code": "EA839",
+        "type": "Gasoline",
+        "power": 349,
+        "torque": 480,
+        "layout": "V6"
+      }
+    },
+    {
+      "maker": "BMW",
+      "model": "850CSi",
+      "year": 1992,
+      "img": "bmw_850csi_1992",
+      "engine": {
+        "code": "S70B56",
+        "type": "Gasoline",
+        "power": 375,
+        "torque": 550,
+        "layout": "V12"
+      }
+    },
+    {
+      "maker": "BMW",
+      "model": "M3",
+      "year": 2005,
+      "img": "bmw_m3_2005",
+      "engine": {
+        "code": "S54",
+        "type": "Gasoline",
+        "power": 338,
+        "torque": 365,
+        "layout": "I6"
+      }
+    },
+    {
+      "maker": "Ford",
+      "model": "Focus RS",
+      "year": 2015,
+      "img": "ford_focus_rs_2015",
+      "engine": {
+        "code": "YVBA",
+        "type": "Gasoline",
+        "power": 350,
+        "torque": 475,
+        "layout": "I4"
+      }
+    },
+    {
+      "maker": "Ford",
+      "model": "Galaxie 500",
+      "year": 1962,
+      "img": "ford_galaxie_500_av_1962",
+      "engine": {
+        "code": "FE428",
+        "type": "Gasoline",
+        "power": 563,
+        "torque": 650,
+        "layout": "V8"
+      }
+    },
+    {
+      "maker": "Tesla",
+      "model": "Model 3 AWD",
+      "year": 2019,
+      "img": "tesla_model_3_2019",
+      "engine": {
+        "code": "-",
+        "type": "Electric",
+        "power": 450,
+        "torque": 639,
+        "layout": "Electric"
+      }
+    },
+    {
+      "maker": "Toyota",
+      "model": "HiAce",
+      "year": 2017,
+      "img": "toyota_hiace_2017",
+      "engine": {
+        "code": "1KD-FTV",
+        "type": "Diesel",
+        "power": 142,
+        "torque": 300,
+        "layout": "I4"
+      }
+    },
+    {
+      "maker": "Toyota",
+      "model": "Land Cruiser",
+      "year": 2011,
+      "img": "toyota_land_cruiser_2011",
+      "engine": {
+        "code": "1UR-FE",
+        "type": "Gasoline",
+        "power": 347,
+        "torque": 460,
+        "layout": "V8"
+      }
+    },
+    {
+      "maker": "Volvo",
+      "model": "S90",
+      "year": 2021,
+      "img": "volvo_s90_2021",
+      "engine": {
+        "code": "B4204T28",
+        "type": "Hybrid",
+        "power": 405,
+        "torque": 640,
+        "layout": "Hybrid I4"
+      }
+    }
+  ]
+}
