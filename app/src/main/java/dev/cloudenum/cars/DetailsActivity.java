@@ -1,7 +1,6 @@
 package dev.cloudenum.cars;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -10,8 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import com.squareup.picasso.Picasso;
-
-import dev.cloudenum.cars.R;
 
 public class DetailsActivity extends AppCompatActivity {
     private Toolbar toolbar;
@@ -40,8 +37,8 @@ public class DetailsActivity extends AppCompatActivity {
         String carEngineCode = getIntent().getStringExtra("car_engine_code");
         String carEngineLayout = getIntent().getStringExtra("car_engine_layout");
         String carEngineType = getIntent().getStringExtra("car_engine_type");
-        String carEnginePower = getIntent().getIntExtra("car_engine_power", 0) + "hp";
-        String carEngineTorque = getIntent().getIntExtra("car_engine_torque", 0) + "N.m";
+        String carEnginePower = getIntent().getIntExtra("car_engine_power", 0) + " hp";
+        String carEngineTorque = getIntent().getIntExtra("car_engine_torque", 0) + " N.m";
 
         tvCarMaker.setText(carMaker);
         tvCarYear.setText(carYear);

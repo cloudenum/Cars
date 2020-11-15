@@ -73,8 +73,8 @@
       "engine": {
         "code": "FE428",
         "type": "Gasoline",
-        "power": 563,
-        "torque": 650,
+        "power": 345,
+        "torque": 626,
         "layout": "V8"
       }
     },

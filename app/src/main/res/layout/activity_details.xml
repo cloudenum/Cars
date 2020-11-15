@@ -31,7 +31,7 @@
             <ImageView
                 android:id="@+id/imgCar_Detail"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/car_photo_height"
+                android:layout_height="@dimen/photo_height"
                 android:scaleType="centerCrop"
                 android:src="@drawable/porsche_macan_s_2019"
                 android:contentDescription="@string/car_image" />
@@ -219,7 +219,8 @@
                             android:layout_width="200dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:orientation="horizontal">
+                            android:orientation="horizontal"
+                            tools:ignore="UselessParent">
 
                             <TextView
                                 android:layout_width="@dimen/detail_text_width"
